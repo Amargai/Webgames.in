@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gaming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .game-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .game {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .game:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Gaming Website</h1>
+    </header>
+    <nav>
+        <a href="#action">Action Games</a>
+        <a href="#puzzle">Puzzle Games</a>
+        <a href="#strategy">Strategy Games</a>
+    </nav>
+    <section id="action">
+        <h2>Action Games</h2>
+        <div class="game-container">
+            <div class="game">
+                <h3>Game Title</h3>
+                <p>Description of the action game.</p>
+                <a href="#">Play Now</a>
+            </div>
+            <!-- Add more action games here -->
+        </div>
+    </section>
+    <section id="puzzle">
+        <h2>Puzzle Games</h2>
+        <div class="game-container">
+            <div class="game">
+                <h3>Game Title</h3>
+                <p>Description of the puzzle game.</p>
+                <a href="#">Play Now</a>
+            </div>
+            <!-- Add more puzzle games here -->
+        </div>
+    </section>
+    <section id="strategy">
+        <h2>Strategy Games</h2>
+        <div class="game-container">
+            <div class="game">
+                <h3>Game Title</h3>
+                <p>Description of the strategy game.</p>
+                <a href="#">Play Now</a>
+            </div>
+            <!-- Add more strategy games here -->
+        </div>
+    </section>
+</body>
+</html>
